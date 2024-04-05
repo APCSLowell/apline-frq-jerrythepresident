@@ -4,15 +4,15 @@ public class APLine
   private double B;
   private double C;
   public void APLine(int a, int b, int c){
-    A=a;
-    B=b;
-    C=c;
+    this.A=a;
+    this.B=b;
+    this.C=c;
   }
   public double getSlope(){
-    return B/A;
+    return this.B/this.A;
   }
   public boolean isOnline(int a, int b){
-    if(A*a+B*b+C==0){
+    if(this.A*a+this.B*b+this.C==0){
       return true;
     }
     return false;
