@@ -1,9 +1,9 @@
 public class APLine
 {
   private double slope;
-  private double a;
-  private double b;
-  private double c;
+  private double A;
+  private double B;
+  private double C;
   public void APLine(int a, int b, int c){
     slope=b/a;
     A=a;
